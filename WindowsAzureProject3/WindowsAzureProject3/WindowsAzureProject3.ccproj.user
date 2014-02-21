@@ -10,7 +10,7 @@
     <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
     <DeploymentStorageService>appchallenge</DeploymentStorageService>
     <DeploymentStorageServiceLabel>appchallenge</DeploymentStorageServiceLabel>
-    <DeploymentLabel>WindowsAzureProject3 - 2/18/2014 9:50:32 PM</DeploymentLabel>
+    <DeploymentLabel>WindowsAzureProject3 - 2/19/2014 4:11:38 PM</DeploymentLabel>
     <DeploymentPromptBeforeDeleting>False</DeploymentPromptBeforeDeleting>
     <DeploymentIsExpanded>False</DeploymentIsExpanded>
   </PropertyGroup>

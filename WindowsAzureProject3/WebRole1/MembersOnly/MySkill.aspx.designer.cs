@@ -30,6 +30,42 @@ public partial class MembersOnly_MySkill {
     protected global::System.Web.UI.WebControls.TextBox SkillTextbox;
     
     /// <summary>
+    /// PrefLabel control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label PrefLabel;
+    
+    /// <summary>
+    /// PrefTextbox control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox PrefTextbox;
+    
+    /// <summary>
+    /// ContactLabel control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label ContactLabel;
+    
+    /// <summary>
+    /// ContactTextbox control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox ContactTextbox;
+    
+    /// <summary>
     /// SubmitButton control.
     /// </summary>
     /// <remarks>
@@ -37,4 +73,13 @@ public partial class MembersOnly_MySkill {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.Button SubmitButton;
+    
+    /// <summary>
+    /// SuccessLabel control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label SuccessLabel;
 }

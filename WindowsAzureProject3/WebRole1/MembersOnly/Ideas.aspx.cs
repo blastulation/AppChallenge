@@ -23,15 +23,17 @@ public partial class Ideas : System.Web.UI.Page
         String ideaText = mIdeaTextbox.Text;
         String Username = HttpContext.Current.User.Identity.Name;
         String Date = System.DateTime.Now.Date.ToShortDateString();
+        ideaText = ideaText + " (submitted by " + Username + " on "+Date+")";
 
         SqlConnection ideaListCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ApplicationServices"].ToString());
         ideaListCon.Open();
-        string insertComText = "INSERT INTO IdeaList  (ListEntry, Author, Date) values('" + ideaText + " (submitted by " + Username + " on "+Date+")', '" + Username + "' , '" + Date + "')";
+        string insertComText = "INSERT INTO IdeaList  (ListEntry, Author, Date) values(@idea, @user , '" + Date + "')";
         SqlCommand insertCom = new SqlCommand(insertComText, ideaListCon);
+        insertCom.Parameters.AddWithValue("idea", ideaText);
+        insertCom.Parameters.AddWithValue("user", Username);
         insertCom.BeginExecuteNonQuery();
         mIdeaList.DataBind();
         ideaListCon.Close();
-        
 
     }
 }

@@ -26,7 +26,7 @@
     <Property name="EntryPoint" value="WebRole1.dll" />
     <Property name="SourceDir" value="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WebRole1\" />
     <Property name="RoleTargetFramework" value="v4.0" />
-    <Property name="SitePhysicalPath" value="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WebRole1\" />
+    <Property name="SitePhysicalPath" value="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WindowsAzureProject3\obj\Debug\WebRole1\" />
     <Property name="OriginalItemSpec" value="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WindowsAzureProject3\WindowsAzureProject3.ccproj" />
     <Property name="MSBuildSourceProjectFile" value="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WindowsAzureProject3\WindowsAzureProject3.ccproj" />
     <Property name="MSBuildSourceTargetName" value="ResolveSingleWebRoleReference" />
@@ -34,7 +34,7 @@
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WebRole1\">
+    <Site name="Web" physicalDirectory="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WindowsAzureProject3\obj\Debug\WebRole1\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>
