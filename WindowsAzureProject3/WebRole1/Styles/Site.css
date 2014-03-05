@@ -40,8 +40,8 @@ p
 h1, h2, h3, h4, h5, h6
 {
     font-size: 1.5em;
-    color: #F8F8F8;
-    font-variant: small-caps;
+    color: #c34500;
+    /*font-variant: small-caps;*/
     text-transform: none;
     font-weight: 200;
     margin-bottom: 0px;
@@ -88,9 +88,7 @@ first child of the left and right table columns */
 
 .page
 {
-    
-    border: 1px solid #496077;
-    margin: 20px auto 175px auto;
+    margin: 20px auto 100px auto;
     width: 960px;
 }
 
@@ -115,6 +113,7 @@ first child of the left and right table columns */
 
 .main
 {
+    border-top: 1px solid #fff;
     padding: 0px 12px;
     margin: 12px 8px 8px 8px;
     min-height: 420px;
@@ -132,21 +131,20 @@ first child of the left and right table columns */
 {
     background-color: #303030;
     bottom: 0px !important;
-    box-shadow: rgba(0, 92, 153, .2) 0 -2px 2px;
-    left: 10%;
+    box-shadow: rgba(255, 255, 255, .9) 0 -2px 2px;
+
     line-height: normal;
-    margin-top: -100px;
-    margin-left: -100px;
     padding: 8px 0px 0px 0px;
     position: fixed;
-    top: 90%;
+    
     width: 100%;
+
     
 }
 
-.sponsors
+#sponsors
 {
-
+    padding: 0px 0px 0px 175px;
 }
 
 
@@ -302,4 +300,10 @@ div.accountInfo
 {
     text-align: right;
     padding-right: 10px;
+}
+
+
+#defaultImg 
+{
+    border-top: 20px solid #303030;
 }

@@ -15,6 +15,8 @@ This experience for a student can benefit them and change their life in a number
 </p>
 <p>
 Along with helping students gain valuable experience, this project gives companies an opportunity to get involved and see what potential future employees exist at OSU. Students will be able to show off their technical skills and creativity, as well as get some real world experience before they graduate. The outcome of the OSU App Challenge can only benefit OSU by providing a way for students to improve themselves and also get OSU more attention from software companies that may want to connect with the university.
-
+    </p>
+        <p>
+        If you have any questions, feel free to email <a href="nicole.marie.phelps@gmail.com" title="email">Nicole Phelps</a> or <a href="davidmeehan7@gmail.com" title="email">David Meehan</a>
     </p>
 </asp:Content>
