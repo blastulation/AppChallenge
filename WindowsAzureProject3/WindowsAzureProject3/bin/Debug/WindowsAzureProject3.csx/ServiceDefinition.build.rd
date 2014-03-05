@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject3" generation="1" functional="0" release="0" Id="ade08d2f-6717-41d5-8edb-bcd0b2e948db" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject3" generation="1" functional="0" release="0" Id="f0cc9d80-4b8a-4af9-af4e-0b849c7e77f3" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzureProject3Group" generation="1" functional="0" release="0">
       <componentports>
@@ -72,7 +72,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="WebRole1" generation="1" functional="0" release="0" software="C:\Users\Mavid\documents\visual studio 2010\Projects\WindowsAzureProject3\WindowsAzureProject3\bin\Debug\WindowsAzureProject3.csx\roles\WebRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="1792" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="WebRole1" generation="1" functional="0" release="0" software="C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WindowsAzureProject3\bin\Debug\WindowsAzureProject3.csx\roles\WebRole1" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="1792" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
             </componentports>
@@ -99,9 +99,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="17de3e9c-a995-47a3-91e3-34d19498713d" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject3Contract@ServiceDefinition.build">
+    <implementation Id="6fe8a14f-78bc-49d7-8a74-498b15adc4c2" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject3Contract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="d0b14728-2d50-40ad-b509-f960123ad178" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="d965b172-044d-4417-94ad-3c183aa9cdb2" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject3/WindowsAzureProject3Group/WebRole1:Endpoint1" />
           </inPort>

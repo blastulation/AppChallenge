@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Net.Mail;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Web.Security;
 
 namespace WebRole1.MembersOnly
 {
@@ -12,7 +15,11 @@ namespace WebRole1.MembersOnly
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+          
+                TeamLeadNameTB.Text = User.Identity.Name;
+                TeamLeadEmailTB.Text = Membership.GetUser(User.Identity.Name).Email;
+            
+            
         }
 
         protected void SubmitButton_Click(object sender, EventArgs e)
@@ -40,8 +47,9 @@ namespace WebRole1.MembersOnly
             try
             {
                 ErrorLabel.Text = "";
-                Response.Redirect("Success.aspx");
                 client.Send(mail);
+                Response.Redirect("Success.aspx");
+               
             }
             catch (Exception ex)
             {

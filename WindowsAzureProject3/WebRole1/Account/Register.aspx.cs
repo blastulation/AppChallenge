@@ -27,8 +27,13 @@ namespace WebRole1.Account
             string insertComText = "INSERT INTO People ([User], Email, Skills) values( @User,@Email, '')";
             SqlCommand insertCom = new SqlCommand(insertComText, PeopleCon);
             insertCom.Parameters.AddWithValue("User", RegisterUser.UserName);
-            insertCom.Parameters.AddWithValue("Email", RegisterUser.UserName);
-            insertCom.BeginExecuteNonQuery();
+            insertCom.Parameters.AddWithValue("Email", RegisterUser.Email);
+            IAsyncResult result = insertCom.BeginExecuteNonQuery();
+            while (!result.IsCompleted)
+            {
+                System.Threading.Thread.Sleep(100);
+            }
+            insertCom.EndExecuteNonQuery(result);
             PeopleCon.Close();
 
             string continueUrl = RegisterUser.ContinueDestinationPageUrl;

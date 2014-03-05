@@ -31,7 +31,12 @@ public partial class Ideas : System.Web.UI.Page
         SqlCommand insertCom = new SqlCommand(insertComText, ideaListCon);
         insertCom.Parameters.AddWithValue("idea", ideaText);
         insertCom.Parameters.AddWithValue("user", Username);
-        insertCom.BeginExecuteNonQuery();
+        IAsyncResult result = insertCom.BeginExecuteNonQuery();
+        while (!result.IsCompleted)
+        {
+            System.Threading.Thread.Sleep(100);
+        }
+        insertCom.EndExecuteNonQuery(result);
         mIdeaList.DataBind();
         ideaListCon.Close();
 

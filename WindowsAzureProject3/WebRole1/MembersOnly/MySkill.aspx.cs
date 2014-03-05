@@ -14,7 +14,7 @@ public partial class MembersOnly_MySkill : System.Web.UI.Page
         if (!Page.IsPostBack)
         {
             SqlConnection skillsCon = new SqlConnection(ConfigurationManager.ConnectionStrings["ApplicationServices"].ToString());
-            SqlCommand skillCmd = new SqlCommand("SELECT Skills, Pref, Contact FROM People WHERE User = @user", skillsCon);
+            SqlCommand skillCmd = new SqlCommand("SELECT Skills, Pref, Contact FROM People WHERE [User] = @user", skillsCon);
             skillCmd.Parameters.AddWithValue("user", User.Identity.Name);
             skillsCon.Open();
             SqlDataReader skillRdr = skillCmd.ExecuteReader();
@@ -23,7 +23,7 @@ public partial class MembersOnly_MySkill : System.Web.UI.Page
             {
                 SkillTextbox.Text = skillRdr["Skills"].ToString();
                 PrefTextbox.Text = skillRdr["Pref"].ToString();
-                SkillTextbox.Text = skillRdr["Contact"].ToString();
+                ContactTextbox.Text = skillRdr["Contact"].ToString();
 
             }
             skillsCon.Close();
@@ -42,7 +42,12 @@ public partial class MembersOnly_MySkill : System.Web.UI.Page
         insertCom.Parameters.AddWithValue("user", User.Identity.Name);
         try
         {
-            insertCom.BeginExecuteNonQuery();
+            IAsyncResult result = insertCom.BeginExecuteNonQuery();
+            while (!result.IsCompleted)
+            {
+                System.Threading.Thread.Sleep(100);
+            }
+            insertCom.EndExecuteNonQuery(result);
             SuccessLabel.Text = "Success";
             SuccessLabel.ForeColor = System.Drawing.Color.Green;
         }

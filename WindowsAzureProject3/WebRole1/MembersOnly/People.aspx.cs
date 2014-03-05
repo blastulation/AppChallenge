@@ -12,7 +12,7 @@ public partial class People : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-       
+        
     }
 
     protected void PeopleGrid_OnDataBound(object sender, EventArgs e)
