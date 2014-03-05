@@ -48,7 +48,23 @@
         </div>
     </div>
     <div class="footer">
-        
+        <div id="sponsors">
+            <a href="http://urbanairship.com/" target="_blank">
+                <asp:Image ID="urbanair" ImageUrl="~/Images/urbanairship.png" Width="225px" Height="97px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="http://puppetlabs.com/" target="_blank">
+                <asp:Image ID="Image1" ImageUrl="~/Images/puppet-labs.png" Width="225px" Height="105px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="http://www.vadio.com/" target="_blank">
+                <asp:Image ID="Image2" ImageUrl="~/Images/vadio.png" Width="225px" Height="86px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="https://www.google.com/" target="_blank">
+                <asp:Image ID="Image3" ImageUrl="~/Images/google.png" Width="225px" Height="75px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="http://www.intel.com/" target="_blank">
+                <asp:Image ID="Image4" ImageUrl="~/Images/intel.png" Width="225px" Height="169px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+        </div>
     </div>
     </form>
 </body>

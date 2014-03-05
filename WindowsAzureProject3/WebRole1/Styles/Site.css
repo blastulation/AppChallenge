@@ -90,7 +90,7 @@ first child of the left and right table columns */
 {
     
     border: 1px solid #496077;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 175px auto;
     width: 960px;
 }
 
@@ -130,11 +130,23 @@ first child of the left and right table columns */
 
 .footer
 {
-    color: #FFF;
-    padding: 8px 0px 0px 0px;
-    margin: 0px auto;
-    text-align: center;
+    background-color: #303030;
+    bottom: 0px !important;
+    box-shadow: rgba(0, 92, 153, .2) 0 -2px 2px;
+    left: 10%;
     line-height: normal;
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 8px 0px 0px 0px;
+    position: fixed;
+    top: 90%;
+    width: 100%;
+    
+}
+
+.sponsors
+{
+
 }
 
 
