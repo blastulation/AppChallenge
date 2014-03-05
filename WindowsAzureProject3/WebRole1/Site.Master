@@ -14,7 +14,7 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    <asp:Image ID="AppChallengeImage" ImageUrl="~/Images/forumlogo.jpg" runat="server" NavigateUrl="~/default.aspx" />
+                    <asp:Image ID="AppChallengeImage" ImageUrl="~/Images/OSU-App-Challenge-Final.png" Width="500px" Height="155px" runat="server" NavigateUrl="~/default.aspx" />
                 </h1>
             </div>
             <div class="loginDisplay">
