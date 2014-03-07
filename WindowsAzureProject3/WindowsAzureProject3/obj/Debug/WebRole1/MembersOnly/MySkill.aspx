@@ -9,6 +9,9 @@
     Advertise here!
     <br />
     <br />
+    <asp:Button ID="LinButton" runat="server" OnClick="LinButtonClick" Text="Connect with Linkedin" />
+    <br />
+    <br />
 
 
 <asp:Label ID="SkillLabel" Text="Skills" runat="server" Style="vertical-align:top" />

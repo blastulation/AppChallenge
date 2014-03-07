@@ -2,19 +2,19 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head runat="server">
+<head id="Head1" runat="server">
     <title></title>
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form runat="server">
+    <form id="Form1" runat="server">
     <div class="page">
         <div class="header">
             <div class="title">
                 <h1>
-                    <asp:Image ID="AppChallengeImage" ImageUrl="~/Images/forumlogo.jpg" runat="server" NavigateUrl="~/default.aspx" />
+                    <asp:Image ID="AppChallengeImage" ImageUrl="~/Images/OSU-App-Challenge-Final.png" Width="500px" Height="155px" runat="server" NavigateUrl="~/default.aspx" />
                 </h1>
             </div>
             <div class="loginDisplay">
@@ -48,7 +48,23 @@
         </div>
     </div>
     <div class="footer">
-        
+        <div id="sponsors">
+            <a href="http://urbanairship.com/" target="_blank">
+                <asp:Image ID="urbanair" ImageUrl="~/Images/urbanairship.png" Width="113px" Height="50px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="http://puppetlabs.com/" target="_blank">
+                <asp:Image ID="Image1" ImageUrl="~/Images/puppet-labs.png" Width="120px" Height="50px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="http://www.vadio.com/" target="_blank">
+                <asp:Image ID="Image2" ImageUrl="~/Images/vadio.png" Width="150px" Height="50px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="https://www.google.com/" target="_blank">
+                <asp:Image ID="Image3" ImageUrl="~/Images/google.png" Width="160px" Height="50px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>
+            <a href="http://www.intel.com/" target="_blank">
+                <asp:Image ID="Image4" ImageUrl="~/Images/intel.png" Width="90px" Height="50px" runat="server" NavigateUrl="~/default.aspx" />
+            </a>           
+        </div>
     </div>
     </form>
 </body>

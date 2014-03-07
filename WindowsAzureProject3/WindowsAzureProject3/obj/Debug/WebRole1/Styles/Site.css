@@ -3,12 +3,12 @@
 
 body   
 {
-    background: #FFFFFF;
+    background: #303030;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
-    color: #696969;
+    color: #FFF;
 }
 
 a:link, a:visited
@@ -40,8 +40,8 @@ p
 h1, h2, h3, h4, h5, h6
 {
     font-size: 1.5em;
-    color: #666666;
-    font-variant: small-caps;
+    color: #c34500;
+    /*font-variant: small-caps;*/
     text-transform: none;
     font-weight: 200;
     margin-bottom: 0px;
@@ -88,10 +88,8 @@ first child of the left and right table columns */
 
 .page
 {
+    margin: 20px auto 100px auto;
     width: 960px;
-    background-color: #ffffff;
-    margin: 20px auto 0px auto;
-    border: 1px solid #496077;
 }
 
 .header
@@ -99,7 +97,6 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #ffffff;
     width: 100%;
 }
 
@@ -116,6 +113,7 @@ first child of the left and right table columns */
 
 .main
 {
+    border-top: 1px solid #fff;
     padding: 0px 12px;
     margin: 12px 8px 8px 8px;
     min-height: 420px;
@@ -131,11 +129,22 @@ first child of the left and right table columns */
 
 .footer
 {
-    color: #4e5766;
-    padding: 8px 0px 0px 0px;
-    margin: 0px auto;
-    text-align: center;
+    background-color: #303030;
+    bottom: 0px !important;
+    box-shadow: rgba(255, 255, 255, .9) 0 -2px 2px;
+
     line-height: normal;
+    padding: 8px 0px 0px 0px;
+    position: fixed;
+    
+    width: 100%;
+
+    
+}
+
+#sponsors
+{
+    padding: 0px 0px 0px 175px;
 }
 
 
@@ -144,7 +153,6 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
     width:100%;
 }
 
@@ -163,9 +171,9 @@ div.menu ul
 
 div.menu ul li a, div.menu ul li a:visited
 {
-    background-color: #465c71;
-    border: 1px #4e667d solid;
-    color: #dde4ec;
+    /*background-color: #ff3300;
+    border: 1px #4e667d solid;*/
+    color: #c34500;
     display: block;
     line-height: 1.35em;
     padding: 4px 20px;
@@ -175,15 +183,14 @@ div.menu ul li a, div.menu ul li a:visited
 
 div.menu ul li a:hover
 {
-    background-color: #bfcbd6;
-    color: #465c71;
-    text-decoration: none;
+    /*background-color: #bfcbd6;
+    color: #465c71;*/
+    font-weight: bold;
 }
 
 div.menu ul li a:active
 {
-    background-color: #465c71;
-    color: #cfdbe6;
+    color: #ff3300;
     text-decoration: none;
 }
 
@@ -260,12 +267,12 @@ div.accountInfo
     display: block;
     text-align: right;
     padding: 10px;
-    color: #696969;
+    color: #FFF;
 }
 
 .loginDisplay a:link
 {
-    color: #696969;
+    color: #FFF;
 }
 
 .loginDisplay a:visited
@@ -293,4 +300,10 @@ div.accountInfo
 {
     text-align: right;
     padding-right: 10px;
+}
+
+
+#defaultImg 
+{
+    border-top: 20px solid #303030;
 }

@@ -6,8 +6,13 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Net;
+using System.IO;
+
+
 public partial class MembersOnly_MySkill : System.Web.UI.Page
 {
+    string redirectUri = "http://osuappchallenge.cloudapp.net/MembersOnly/Return.aspx";
     protected void Page_Load(object sender, EventArgs e)
     {
         SuccessLabel.Text = "";
@@ -27,8 +32,9 @@ public partial class MembersOnly_MySkill : System.Web.UI.Page
 
             }
             skillsCon.Close();
+       
         }
-            
+   
     }
     protected void SubmitButton_Click(object sender, EventArgs e)
     {
@@ -56,5 +62,11 @@ public partial class MembersOnly_MySkill : System.Web.UI.Page
             SuccessLabel.ForeColor = System.Drawing.Color.Red;
         }
         peopleCon.Close();
+    }
+
+    protected void LinButtonClick(object sender, EventArgs e)
+    {
+
+        Response.Redirect(@"https://www.linkedin.com/uas/oauth2/authorization?response_type=code&client_id=755mysmmw301gi&scope=r_fullprofile%20r_emailaddress&state=32tegret43erwre&redirect_uri=" + redirectUri);
     }
 }

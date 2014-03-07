@@ -16,6 +16,5 @@ C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WebRole1\bin\Micr
 C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WebRole1\obj\Debug\WebRole1.dll
 C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WebRole1\obj\Debug\WebRole1.pdb
 C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WebRole1\obj\Debug\WebRole1.csprojResolveAssemblyReference.cache
-Z:\Documents\AppChallengeWeb-latest\AppChallenge\WindowsAzureProject3\WebRole1\obj\Debug\WebRole1.csprojResolveAssemblyReference.cache
-Z:\Documents\AppChallengeWeb-latest\AppChallenge\WindowsAzureProject3\WebRole1\obj\Debug\WebRole1.dll
-Z:\Documents\AppChallengeWeb-latest\AppChallenge\WindowsAzureProject3\WebRole1\obj\Debug\WebRole1.pdb
+C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WebRole1\bin\Newtonsoft.Json.dll
+C:\cygwin64\home\Mavid\AppChallengeWebApp\WindowsAzureProject3\WebRole1\bin\Newtonsoft.Json.xml
