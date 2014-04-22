@@ -6,7 +6,8 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div id="defaultImg">
         <a href="http://eecs.oregonstate.edu/aspiring-app-developers" target="_blank">
-            <asp:Image ID="appHackImage" ImageUrl="~/Images/developer.jpg" Width="550" Height="295" runat="server" NavigateUrl="~/default.aspx" />
+            <asp:Image ID="appHackImage" ImageUrl="~/Images/developer.jpg" 
+            Width="506px" Height="266px" runat="server" NavigateUrl="~/default.aspx" />
         </a>
         <!--http://eecs.oregonstate.edu/sites/default/files/images/yeung-godfrey.jpg-->
     </div>
@@ -15,9 +16,13 @@
     </h2>
     <p>
         <b>It's not too late to join!</b>
+        
+        </p>
+    <p>
+        <a href="~/RegGroup.aspx">Register you team here!</a>
     </p>
     <p>
-        The <b>OSU App Challenge</b> is a competition empowered by OSU students who are eagur to learn to make mobile applications. We are in the process of building a community at OSU around the app development process. All levels of experience (including no experience) are encouraged to attend. You can form a team or work individually.
+        The <b>OSU App Challenge</b> is a competition empowered by OSU students who are eager to learn to make mobile applications. We are in the process of building a community at OSU around the app development process. All levels of experience (including no experience) are encouraged to attend. You can form a team or work individually.
         
     </p>
     <p>
@@ -25,13 +30,14 @@
     </p>
     <h2>Help Sessions and Lessons</h2>
     <p>
-        <b>Android: 6pm on Wednesdays at MCC 130</b>
+        <b>Android: 6pm on Wednesdays at KIDD 033</b>
     </p>
     <p>
-        <b>iOS: 8pm on Wednesdays at KIDD 033</b>
+        <b>iOS: 7pm on Wednesdays at KIDD 033</b>
     </p>
     <p>
-        If you have any questions, feel free to email <a href="nicole.marie.phelps@gmail.com" title="email">Nicole Phelps</a> or <a href="davidmeehan7@gmail.com" title="email">David Meehan</a>
+        If you have any questions, feel free to email
+        nicole.marie.phelps@gmail.com or davidmeehan7@gmail.com
     </p>
 
 </asp:Content>

@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <DeploymentBuildOnly>False</DeploymentBuildOnly>
-    <DeploymentAccountName>MyCred</DeploymentAccountName>
+    <DeploymentAccountName>AprilCred</DeploymentAccountName>
     <DeploymentHostedService>osuappchallenge</DeploymentHostedService>
     <DeploymentHostedServiceLabel>osuappchallenge</DeploymentHostedServiceLabel>
     <DeploymentSlot>Production</DeploymentSlot>
@@ -10,7 +10,7 @@
     <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
     <DeploymentStorageService>appchallenge</DeploymentStorageService>
     <DeploymentStorageServiceLabel>appchallenge</DeploymentStorageServiceLabel>
-    <DeploymentLabel>WindowsAzureProject3 - 3/4/2014 7:08:42 PM</DeploymentLabel>
+    <DeploymentLabel>WindowsAzureProject3 - 4/21/2014 5:20:00 PM</DeploymentLabel>
     <DeploymentPromptBeforeDeleting>False</DeploymentPromptBeforeDeleting>
     <DeploymentIsExpanded>False</DeploymentIsExpanded>
   </PropertyGroup>

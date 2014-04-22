@@ -74,10 +74,10 @@
     <Content Include="MembersOnly\Ideas.aspx" />
     <Content Include="MembersOnly\MySkill.aspx" />
     <Content Include="MembersOnly\People.aspx" />
-    <Content Include="MembersOnly\RegGroup.aspx" />
+    <Content Include="RegGroup.aspx" />
     <Content Include="MembersOnly\Return.aspx" />
-    <Content Include="MembersOnly\Success.aspx" />
-    <Content Include="MembersOnly\Tutorials.aspx" />
+    <Content Include="Success.aspx" />
+    <Content Include="Tutorials.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -89,6 +89,7 @@
     </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -169,11 +170,11 @@
     <Compile Include="MembersOnly\People.aspx.designer.cs">
       <DependentUpon>People.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MembersOnly\RegGroup.aspx.cs">
+    <Compile Include="RegGroup.aspx.cs">
       <DependentUpon>RegGroup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MembersOnly\RegGroup.aspx.designer.cs">
+    <Compile Include="RegGroup.aspx.designer.cs">
       <DependentUpon>RegGroup.aspx</DependentUpon>
     </Compile>
     <Compile Include="MembersOnly\Return.aspx.cs">
@@ -183,18 +184,18 @@
     <Compile Include="MembersOnly\Return.aspx.designer.cs">
       <DependentUpon>Return.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MembersOnly\Success.aspx.cs">
+    <Compile Include="Success.aspx.cs">
       <DependentUpon>Success.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MembersOnly\Success.aspx.designer.cs">
+    <Compile Include="Success.aspx.designer.cs">
       <DependentUpon>Success.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MembersOnly\Tutorials.aspx.cs">
+    <Compile Include="Tutorials.aspx.cs">
       <DependentUpon>Tutorials.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MembersOnly\Tutorials.aspx.designer.cs">
+    <Compile Include="Tutorials.aspx.designer.cs">
       <DependentUpon>Tutorials.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

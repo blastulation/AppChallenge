@@ -7,7 +7,7 @@
         Groups
     </h2>
     <p>
-       <asp:HyperLink ID="GroupRegLink" NavigateUrl="~/MembersOnly/RegGroup.aspx"  runat="server">Register your group</asp:HyperLink>
+       <asp:HyperLink ID="GroupRegLink" NavigateUrl="~/RegGroup.aspx"  runat="server">Register your group</asp:HyperLink>
 
     </p>
 </asp:Content>

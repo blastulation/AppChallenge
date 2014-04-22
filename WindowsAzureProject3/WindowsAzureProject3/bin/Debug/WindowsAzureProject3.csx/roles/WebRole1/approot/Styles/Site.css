@@ -135,7 +135,9 @@ first child of the left and right table columns */
 
     line-height: normal;
     padding: 8px 0px 0px 0px;
-    position: fixed;
+    /*
+        position: fixed;
+    */
     
     width: 100%;
 
