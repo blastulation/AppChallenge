@@ -19,21 +19,32 @@
         
         </p>
     <p>
-        <a href="~/RegGroup.aspx">Register you team here!</a>
+        <a href="RegGroup.aspx">Register you team here!</a>
     </p>
+    <p>
+        The App Challenge is taking place <b>Saturday, May 10th in the Kelley Engineering Center Main Atrium</b>
+    </p>
+    The prizes are:  <br />
+First overall: $200 gift card to Amazon  <br />
+Best of each of four categories: $75 gift card to Amazon  <br />
+* Most Innovative  <br />
+* Most Complete  <br />
+* Best Presentation  <br />
+* People's Choice  <br />
+
     <p>
         The <b>OSU App Challenge</b> is a competition empowered by OSU students who are eager to learn to make mobile applications. We are in the process of building a community at OSU around the app development process. All levels of experience (including no experience) are encouraged to attend. You can form a team or work individually.
         
     </p>
     <p>
-        All you have to do is make an app by May and you could win <b>PRIZES!!!</b>
+        All you have to do is make an app by May 10th and you could win <b>PRIZES!!!</b>
     </p>
     <h2>Help Sessions and Lessons</h2>
     <p>
-        <b>Android: 6pm on Wednesdays at KIDD 033</b>
+        <b>Android: 6pm on Wednesdays in KIDD 033</b>
     </p>
     <p>
-        <b>iOS: 7pm on Wednesdays at KIDD 033</b>
+        <b>iOS: 7pm on Wednesdays in KIDD 033</b>
     </p>
     <p>
         If you have any questions, feel free to email

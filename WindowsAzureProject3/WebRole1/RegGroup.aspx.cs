@@ -21,7 +21,7 @@ namespace WebRole1
                 TeamLeadNameTB.Text = User.Identity.Name;
                 
             }
-            catch (NullReferenceException)
+            catch (Exception)
             {
             }
             
