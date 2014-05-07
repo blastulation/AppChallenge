@@ -56,20 +56,20 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\developer.jpg" />
-    <Content Include="Images\forumlogo.jpg" />
+    <Content Include="Account\Images\developer.jpg" />
+    <Content Include="Account\Images\forumlogo.jpg" />
     <Content Include="About.aspx" />
     <Content Include="Account\ChangePassword.aspx" />
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
-    <Content Include="Images\google.png" />
-    <Content Include="Images\intel.png" />
-    <Content Include="Images\OSU-App-Challenge-Final.png" />
-    <Content Include="Images\puppet-labs.png" />
-    <Content Include="Images\urbanairship.jpg" />
-    <Content Include="Images\urbanairship.png" />
-    <Content Include="Images\vadio.png" />
+    <Content Include="Account\Images\google.png" />
+    <Content Include="Account\Images\intel.png" />
+    <Content Include="Account\Images\OSU-App-Challenge-Final.png" />
+    <Content Include="Account\Images\puppet-labs.png" />
+    <Content Include="Account\Images\urbanairship.jpg" />
+    <Content Include="Account\Images\urbanairship.png" />
+    <Content Include="Account\Images\vadio.png" />
     <Content Include="MembersOnly\Groups.aspx" />
     <Content Include="MembersOnly\Ideas.aspx" />
     <Content Include="MembersOnly\MySkill.aspx" />

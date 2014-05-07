@@ -12,33 +12,30 @@
         <!--http://eecs.oregonstate.edu/sites/default/files/images/yeung-godfrey.jpg-->
     </div>
     <h2>
-        Ever wondered how awesome it would be to make a mobile app?
+       Have you created an awesome mobile app for school, work or fun? <br /> <b>
+        Join the OSU App Challenge!</b>
     </h2>
-    <p>
-        <b>It's not too late to join!</b>
-        
-        </p>
     <p>
         <a href="RegGroup.aspx">Register you team here!</a>
     </p>
     <p>
-        The App Challenge is taking place <b>Saturday, May 10th in the Kelley Engineering Center Main Atrium</b>
-    </p>
+        The App Challenge will take place <b>Saturday, May 10th 2pm-4pm in the Kelley Engineering Center Main Atrium.</b></br>
+        Each team will have a dedicated table to show off the App they created. Technology industry executives will tour the tables and judge each on <strong>
+        Innovation</strong>,
+        <strong>Completeness</strong> and <strong>Presentation.</strong></p>
     The prizes are:  <br />
 First overall: $200 gift card to Amazon  <br />
-Best of each of four categories: $75 gift card to Amazon  <br />
-* Most Innovative  <br />
-* Most Complete  <br />
-* Best Presentation  <br />
-* People's Choice  <br />
-
+Best of each the following categories: $75 gift card to Amazon 
+<ul><li>Most Innovative</li>
+<li>Most Complete</li>
+<li>Best Presentation</li>
+<li>People's Choice</li></ul>
     <p>
         The <b>OSU App Challenge</b> is a competition empowered by OSU students who are eager to learn to make mobile applications. We are in the process of building a community at OSU around the app development process. All levels of experience (including no experience) are encouraged to attend. You can form a team or work individually.
         
     </p>
     <p>
-        All you have to do is make an app by May 10th and you could win <b>PRIZES!!!</b>
-    </p>
+        &nbsp;</p>
     <h2>Help Sessions and Lessons</h2>
     <p>
         <b>Android: 6pm on Wednesdays in KIDD 033</b>
